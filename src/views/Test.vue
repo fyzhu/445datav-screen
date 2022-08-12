@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  import OrderMap from '../components/OrderMap/index'
+  import OrderMap from '../components/OrderMap/index.vue'
 
   export default {
     components: { OrderMap }
