@@ -8,17 +8,17 @@ export default defineConfig({
   server: {
     port: 8080,
   },
-  resolve: {
-    alias: {
-      'crypto': 'crypto-browserify',
-      'stream': 'stream-browserify'
-    }
-  },
+  // resolve: {
+  //   alias: {
+  //     'crypto': 'crypto-browserify',
+  //     'stream': 'stream-browserify'
+  //   }
+  // },
   optimizeDeps: {
     force: true,
     // exclude: ["crypto"], // <= The libraries that need shimming should be excluded from dependency optimization.
   },
-  define: {
-    'process.env.NODE_DEBUG': 'false'
-  },
+  // define: {
+  //   'process.env.NODE_DEBUG': 'false'
+  // },
 });
