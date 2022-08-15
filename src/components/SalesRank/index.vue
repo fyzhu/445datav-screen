@@ -36,7 +36,7 @@
 <script>
   import Echarts from 'echarts'
   import { ref, watch, nextTick, onMounted } from 'vue'
-  import TransformCategory from '../TransformCategory/index'
+  import TransformCategory from '../TransformCategory/index.vue'
 
   export default {
     name: 'SalesRank',
